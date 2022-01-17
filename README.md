@@ -8,10 +8,10 @@ the network accepts images as array of int or float whit shape like this:
 
   B x N x W x H
   
-B : Number of batch
-N : the number of channel (RGB=3)
-W : the image width
-H : the height image
+B : Number of batch\n
+N : the number of channel (RGB=3)\n
+W : the image width\n
+H : the height image\n
 
 python
 usage: gan.py [-h] [--n_epochs N_EPOCHS] [--batch_size BATCH_SIZE] [--lr LR] [--b1 B1] [--b2 B2] [--n_cpu N_CPU] [--latent_dim LATENT_DIM] [--img_size IMG_SIZE] [--channels CHANNELS] [--n_critic N_CRITIC] [--n_save N_SAVE] [--sample_interval SAMPLE_INTERVAL] [--n_old_state N_OLD_STATE] [--generator_input GENERATOR_INPUT [GENERATOR_INPUT ...]] [--folder_model FOLDER_MODEL]
